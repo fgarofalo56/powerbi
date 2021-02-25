@@ -18,7 +18,7 @@ param (
    $newDBName
 )
 
-#This script uses a AAD user that has access to the workspace.  The API that is required to update creds does not support running as an app and needs to be run in the context of a user
+#This script uses an AAD user that has access to the workspace.  The API that is required to update creds does not support running as an app and needs to be run in the context of a user
 #Example uses a Power BI web only account with needs to have an active Power BI lic and the coorrect permisons to each group/workspace.  
 #Install Azure PowerShell Version 5.4.0
 Install-Module -Name Az -RequiredVersion 5.4.0 -Scope CurrentUser -AllowClobber -Force -Verbose
